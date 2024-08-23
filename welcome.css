@@ -1,0 +1,20 @@
+body {
+  background-color: rgba(254, 0, 0, 1);
+}
+
+.welcome {
+  height: 100dvh;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome > img {
+  cursor: pointer;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}

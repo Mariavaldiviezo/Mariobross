@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr max-content;
+  min-height: 100dvh;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 250px;
+  height: 160px;
+  object-fit: contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1px;
+  z-index: 10;
+}
+
+.button {
+  width: 55px;
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  cursor: pointer;
+}
+
+.main_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+.container {
+  width: 570px;
+  height: 390px;
+  background-color: rgba(217, 217, 217, 1);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.521);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  overflow: hidden;
+}
